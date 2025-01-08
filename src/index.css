@@ -27,9 +27,43 @@ body {
   text-align: center; /* Aligns text to the center */
 }
 
-.projects, .experience, .footer {
+.projects, .footer {
   padding: 2rem;
   text-align: center;
+}
+
+.experience {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.experience-logo {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+
+.experience-text h3 {
+  margin: 0;
+}
+
+.experience-text p {
+  margin: 0.5rem 0;
 }
 
 h1, h2, h3 {
@@ -39,4 +73,34 @@ h1, h2, h3 {
 ul {
   list-style: none;
   padding: 0;
+}
+
+.projects {
+  max-width: 800px; /* Limits the width of the entire projects section */
+  margin: 0 auto; /* Centers the section horizontally */
+  padding: 20px;
+  text-align: center; /* Centers the text */
+}
+
+.projects h2 {
+  font-size: 2rem; /* Adjust the heading size */
+  margin-bottom: 20px;
+}
+
+.projects ul {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 40px;
+}
+
+.projects img {
+  display: block; /* Makes the image a block element */
+  margin: 0 auto 20px; /* Centers the image horizontally and adds spacing below */
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+  width: 300px; /* Adjust the image size as needed */
+  border-radius: 10px; /* Adds rounded corners */
 }
