@@ -3,6 +3,7 @@ import Header from './components/header';
 import Bio from './components/bio';
 import Projects from './components/projects';
 import Experience from './components/experience';
+import Contact from './components/contact';
 import Footer from './components/footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Bio />
       <Experience />
       <Projects />
+      <Contact/>
       <Footer />
     </div>
   );
