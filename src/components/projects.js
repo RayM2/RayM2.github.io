@@ -9,7 +9,7 @@ function Projects() {
         <h3>Desktop Stock Market Simulator</h3>
         <img
               src="/images/stockApp.png"
-              alt="project image"
+              alt="project"
               className="experience-logo"
             />
           
@@ -19,8 +19,16 @@ function Projects() {
           </p>
         </li>
         <li>
-          <h3>Project 2</h3>
-          <p>Description of your project.</p>
+          <h3>Bank Website</h3>
+          <img
+            src="/images/bank.png"
+            alt="bank"
+            className="experience-logo"
+            />
+          <p>A full-stack website for a fictional bank, with features implemented allowing users to create and manage accounts, make transactions
+            , and view account balances. An business-side view was also developed, allowing the user to view employee and asset data for each branch. 
+            An SQL database was used for storing, updating, and retrieving data, PHP was used for connecting the website to the database, and Javascript, 
+            HTML and CSS were used for the front-end.</p>
         </li>
       </ul>
     </section>

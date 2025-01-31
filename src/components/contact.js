@@ -67,11 +67,20 @@ function Contact() {
       <p>{status}</p>
       <div className="social-links">
         <a
-          href="https://www.linkedin.com/in/your-linkedin-profile"
+          href="http://www.linkedin.com/in/rayhan-mohammed"
           target="_blank"
           rel="noopener noreferrer"
         >
           Connect on LinkedIn
+        </a>
+      </div>
+      <div className="social-links">
+        <a
+          href="http://www.github.com/RayM2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My GitHub
         </a>
       </div>
     </section>
